@@ -1,0 +1,3 @@
+add_executable(benchmark_slab benchmark_slab.cu)
+target_link_libraries(benchmark_slab PRIVATE slab)
+add_test(benchmark_slab benchmark_slab)

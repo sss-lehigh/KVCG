@@ -1,0 +1,5 @@
+/lib/*.o
+/objs/*.o
+
+/lib/*.a
+/objs/*.a
